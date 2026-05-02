@@ -1,4 +1,4 @@
-## Wsp?👋
+## Heya There!👋
 
 Heya, I'm Arsh! I'm just a casual 13 year old programmer and game developer.
 
