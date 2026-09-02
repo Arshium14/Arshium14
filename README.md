@@ -1,5 +1,5 @@
 # 👋 Heya There!
-Heya, I'm Arsh! I'm just a casual 13 year old programmer and game developer.
+Heya, I'm Arsh! I'm just a casual 14 year old programmer and game developer.
 
 - 🤓 I know Python, GDScript, and some HTML+CSS.<br>
 - 🌱 I’m currently learning Java.<br>
