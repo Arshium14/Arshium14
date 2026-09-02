@@ -3,7 +3,7 @@ Heya, I'm Arsh! I'm just a casual 13 year old programmer and game developer.
 
 - 🤓 I know Python, GDScript, and some HTML+CSS.<br>
 - 🌱 I’m currently learning Java.<br>
-- 🤖 I've been a member of FLL Team #3249 for 2 years.<br>
+- 🤖 I'm a software dev at FTC Error 101.
 - 🛠️ I'm part of a game dev team (Apricot Studios) and I'm the lead artist.<br>
 - 💬 Ask me about literally anything you want.<br>
 - 😄 Pronouns: He/Him
