@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="640" viewBox="0 0 920 640" role="img" aria-labelledby="t d">
+  <title id="t">README.md — about (standalone SVG block)</title>
+  <desc id="d">The retro desktop-window "about" section rendered as pure SVG: sky-blue dotted background, a paper window titled README.md, the arshium14 heading, bio text, a vector cowboy-hat avatar, and social chips.</desc>
+
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d2f1fa"/>
+      <stop offset="0.45" stop-color="#beE9f6"/>
+      <stop offset="1" stop-color="#a7def0"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#45b0cc" fill-opacity="0.35"/>
+    </pattern>
+    <style>
+      text{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#000}
+      .h1{font-size:42px;font-weight:800}
+      .barlabel{font-size:15px;font-weight:700;letter-spacing:.3px}
+      .lede{font-size:16px}
+      .facts{font-size:14px}
+      .cap{font-size:13px;font-weight:700}
+      .chipt{font-size:14px;font-weight:700}
+      .stroke{fill:none;stroke:#000;stroke-width:2;stroke-linecap:square}
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="920" height="640" fill="url(#skyGrad)"/>
+  <rect x="0" y="0" width="920" height="640" fill="url(#dots)"/>
+
+  <!-- window: hard shadow + frame -->
+  <rect x="50" y="50" width="816" height="540" fill="#000"/>
+  <rect x="40" y="40" width="816" height="540" fill="#f4f6f7" stroke="#000" stroke-width="3"/>
+
+  <!-- titlebar -->
+  <rect x="41.5" y="41.5" width="813" height="44" fill="#7fcde3"/>
+  <line x1="40" y1="86" x2="856" y2="86" stroke="#000" stroke-width="3"/>
+  <text class="barlabel" x="58" y="69">README.md</text>
+  <!-- controls: minimize / maximize / close -->
+  <line class="stroke" x1="762" y1="64" x2="778" y2="64"/>
+  <rect class="stroke" x="798" y="56" width="16" height="16"/>
+  <path class="stroke" d="M834 56 L850 72 M850 56 L834 72"/>
+
+  <!-- heading -->
+  <text class="h1" x="72" y="152">arshium14<tspan opacity="1">_<animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+
+  <!-- bio (left column) -->
+  <text class="lede" x="72" y="200">heya, i'm arsh! i'm a 14-year-old</text>
+  <text class="lede" x="72" y="226">programmer and game developer. i like</text>
+  <text class="lede" x="72" y="252">building things, making art, and playing</text>
+  <text class="lede" x="72" y="278">video games.</text>
+  <text class="lede" x="72" y="330">i also do robotics on ftc error 101</text>
+  <text class="lede" x="72" y="356">(#32594) as the lead auto software dev.</text>
+
+  <!-- facts -->
+  <text class="facts" x="72" y="400">languages / python &amp; gdscript</text>
+  <text class="facts" x="72" y="424">currently learning / java, lua, html + css</text>
+  <text class="facts" x="72" y="448">pronouns / he/him</text>
+
+  <!-- portrait (right column): frame + vector avatar + caption -->
+  <rect x="586" y="186" width="210" height="244" fill="#000"/>
+  <rect x="580" y="180" width="210" height="244" fill="#f4f6f7" stroke="#000" stroke-width="3"/>
+  <rect x="584" y="184" width="202" height="202" fill="#7fcde3"/>
+  <!-- avatar: face, hat, glasses, smile -->
+  <rect x="648" y="252" width="74" height="78" rx="6" fill="#f3d2a9" stroke="#000" stroke-width="3"/>
+  <path d="M656 252 L656 224 Q656 210 670 210 L700 210 Q714 210 714 224 L714 252 Z" fill="#8a5a2b" stroke="#000" stroke-width="3"/>
+  <ellipse cx="685" cy="252" rx="66" ry="13" fill="#8a5a2b" stroke="#000" stroke-width="3"/>
+  <rect x="656" y="280" width="24" height="18" fill="#fff" stroke="#000" stroke-width="3"/>
+  <rect x="690" y="280" width="24" height="18" fill="#fff" stroke="#000" stroke-width="3"/>
+  <line x1="680" y1="289" x2="690" y2="289" stroke="#000" stroke-width="3"/>
+  <path d="M670 312 Q685 322 700 312" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <!-- caption -->
+  <line x1="580" y1="388" x2="790" y2="388" stroke="#000" stroke-width="3"/>
+  <text class="cap" x="592" y="411">photo.png · 445 × 450</text>
+
+  <!-- social chips -->
+  <!-- github -->
+  <rect x="76" y="482" width="82" height="40" fill="#000"/>
+  <rect x="72" y="478" width="82" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+  <text class="chipt" x="113" y="503" text-anchor="middle">github</text>
+  <!-- twitter/x -->
+  <rect x="172" y="482" width="108" height="40" fill="#000"/>
+  <rect x="168" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+  <text class="chipt" x="222" y="503" text-anchor="middle">twitter/x</text>
+  <!-- pixilart -->
+  <rect x="294" y="482" width="99" height="40" fill="#000"/>
+  <rect x="290" y="478" width="99" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+  <text class="chipt" x="339.5" y="503" text-anchor="middle">pixilart</text>
+  <!-- instagram -->
+  <rect x="407" y="482" width="108" height="40" fill="#000"/>
+  <rect x="403" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+  <text class="chipt" x="457" y="503" text-anchor="middle">instagram</text>
+  <!-- email (primary) -->
+  <rect x="529" y="482" width="74" height="40" fill="#000"/>
+  <rect x="525" y="478" width="74" height="40" fill="#7fcde3" stroke="#000" stroke-width="2"/>
+  <text class="chipt" x="562" y="503" text-anchor="middle">email</text>
+</svg>
