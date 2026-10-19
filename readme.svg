@@ -12,6 +12,9 @@
       .cap{font-size:13px;font-weight:700}
       .chipt{font-size:14px;font-weight:700}
       .ctrl{fill:none;stroke:#000;stroke-width:2;stroke-linecap:square}
+      a{cursor:pointer}
+      .chipg{transition:transform 150ms ease-out}
+      a:hover .chipg{transform:translate(-2px,-2px)}
     </style>
   </defs>
 
@@ -54,20 +57,30 @@
   <line x1="580" y1="388" x2="790" y2="388" stroke="#000" stroke-width="3"/>
   <text class="cap" x="592" y="411">photo.png · 445 × 450</text>
 
-  <!-- social chips -->
-  <rect x="76" y="482" width="82" height="40" fill="#000"/>
-  <rect x="72" y="478" width="82" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-  <text class="chipt" x="113" y="503" text-anchor="middle">github</text>
-  <rect x="172" y="482" width="108" height="40" fill="#000"/>
-  <rect x="168" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-  <text class="chipt" x="222" y="503" text-anchor="middle">twitter/x</text>
-  <rect x="294" y="482" width="99" height="40" fill="#000"/>
-  <rect x="290" y="478" width="99" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-  <text class="chipt" x="339.5" y="503" text-anchor="middle">pixilart</text>
-  <rect x="407" y="482" width="108" height="40" fill="#000"/>
-  <rect x="403" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-  <text class="chipt" x="457" y="503" text-anchor="middle">instagram</text>
-  <rect x="529" y="482" width="74" height="40" fill="#000"/>
-  <rect x="525" y="478" width="74" height="40" fill="#7fcde3" stroke="#000" stroke-width="2"/>
-  <text class="chipt" x="562" y="503" text-anchor="middle">email</text>
+  <!-- social chips (clickable links) -->
+  <a href="https://github.com/arshium14"><g class="chipg">
+    <rect x="76" y="482" width="82" height="40" fill="#000"/>
+    <rect x="72" y="478" width="82" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+    <text class="chipt" x="113" y="503" text-anchor="middle">github</text>
+  </g></a>
+  <a href="https://x.com/themintyapricot"><g class="chipg">
+    <rect x="172" y="482" width="108" height="40" fill="#000"/>
+    <rect x="168" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+    <text class="chipt" x="222" y="503" text-anchor="middle">twitter/x</text>
+  </g></a>
+  <a href="https://pixilart.com/themintyapricot"><g class="chipg">
+    <rect x="294" y="482" width="99" height="40" fill="#000"/>
+    <rect x="290" y="478" width="99" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+    <text class="chipt" x="339.5" y="503" text-anchor="middle">pixilart</text>
+  </g></a>
+  <a href="https://instagram.com/arshium14"><g class="chipg">
+    <rect x="407" y="482" width="108" height="40" fill="#000"/>
+    <rect x="403" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
+    <text class="chipt" x="457" y="503" text-anchor="middle">instagram</text>
+  </g></a>
+  <a href="mailto:arshium01@gmail.com"><g class="chipg">
+    <rect x="529" y="482" width="74" height="40" fill="#000"/>
+    <rect x="525" y="478" width="74" height="40" fill="#7fcde3" stroke="#000" stroke-width="2"/>
+    <text class="chipt" x="562" y="503" text-anchor="middle">email</text>
+  </g></a>
 </svg>
