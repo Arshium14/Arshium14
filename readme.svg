@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="845" height="570" viewBox="30 30 845 570" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="845" height="480" viewBox="30 30 845 480" role="img" aria-labelledby="t d">
   <title id="t">README.md — about (standalone SVG block)</title>
-  <desc id="d">The retro desktop-window "about" section rendered as pure SVG on a transparent background with a white outline: a paper window titled README.md, the arshium14 heading, bio text, an embedded photo, and social chips.</desc>
+  <desc id="d">The retro desktop-window "about" section rendered as pure SVG on a transparent background with a white outline: a paper window titled README.md, the arshium14 heading, bio text, an embedded photo. the whole card links to arshium14.com.</desc>
 
   <defs>
     <style>
@@ -10,20 +10,20 @@
       .lede{font-size:16px}
       .facts{font-size:14px}
       .cap{font-size:13px;font-weight:700}
-      .chipt{font-size:14px;font-weight:700}
       .ctrl{fill:none;stroke:#000;stroke-width:2;stroke-linecap:square}
       a{cursor:pointer}
-      .chipg{transition:transform 150ms ease-out}
-      a:hover .chipg{transform:translate(-2px,-2px)}
     </style>
   </defs>
 
+  <a href="https://arshium14.com" target="_blank" rel="noopener">
+  <rect x="35.5" y="35.5" width="833.5" height="467.5" fill="none" pointer-events="all"/>
+
   <!-- white outline surrounding the whole window + shadow box -->
-  <path d="M35.5 35.5 H860.5 V47 H869 V593 H47 V584.5 H35.5 Z" fill="none" stroke="#fff" stroke-width="6" stroke-linejoin="miter"/>
+  <path d="M35.5 35.5 H860.5 V47 H869 V503 H47 V493 H35.5 Z" fill="none" stroke="#fff" stroke-width="6" stroke-linejoin="miter"/>
 
   <!-- window: hard shadow + frame -->
-  <rect x="50" y="50" width="816" height="540" fill="#000"/>
-  <rect x="40" y="40" width="816" height="540" fill="#f4f6f7" stroke="#000" stroke-width="3"/>
+  <rect x="50" y="50" width="816" height="450" fill="#000"/>
+  <rect x="40" y="40" width="816" height="450" fill="#f4f6f7" stroke="#000" stroke-width="3"/>
 
   <!-- titlebar -->
   <rect x="41.5" y="41.5" width="813" height="44" fill="#7fcde3"/>
@@ -57,30 +57,5 @@
   <line x1="580" y1="388" x2="790" y2="388" stroke="#000" stroke-width="3"/>
   <text class="cap" x="592" y="411">photo.png · 445 × 450</text>
 
-  <!-- social chips (clickable links) -->
-  <a href="https://github.com/arshium14"><g class="chipg">
-    <rect x="76" y="482" width="82" height="40" fill="#000"/>
-    <rect x="72" y="478" width="82" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-    <text class="chipt" x="113" y="503" text-anchor="middle">github</text>
-  </g></a>
-  <a href="https://x.com/themintyapricot"><g class="chipg">
-    <rect x="172" y="482" width="108" height="40" fill="#000"/>
-    <rect x="168" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-    <text class="chipt" x="222" y="503" text-anchor="middle">twitter/x</text>
-  </g></a>
-  <a href="https://pixilart.com/themintyapricot"><g class="chipg">
-    <rect x="294" y="482" width="99" height="40" fill="#000"/>
-    <rect x="290" y="478" width="99" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-    <text class="chipt" x="339.5" y="503" text-anchor="middle">pixilart</text>
-  </g></a>
-  <a href="https://instagram.com/arshium14"><g class="chipg">
-    <rect x="407" y="482" width="108" height="40" fill="#000"/>
-    <rect x="403" y="478" width="108" height="40" fill="#f4f6f7" stroke="#000" stroke-width="2"/>
-    <text class="chipt" x="457" y="503" text-anchor="middle">instagram</text>
-  </g></a>
-  <a href="mailto:arshium01@gmail.com"><g class="chipg">
-    <rect x="529" y="482" width="74" height="40" fill="#000"/>
-    <rect x="525" y="478" width="74" height="40" fill="#7fcde3" stroke="#000" stroke-width="2"/>
-    <text class="chipt" x="562" y="503" text-anchor="middle">email</text>
-  </g></a>
+  </a>
 </svg>
